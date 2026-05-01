@@ -14,7 +14,7 @@
   --toggle-color: #717171;
 }
 
-body.light-mode {
+html.light-mode {
   --logo-fill: #C1C1C1;
   --logo-hover: #717171;
   --bg: #F0EFEF;
@@ -117,20 +117,20 @@ header {
   opacity: 1;
 }
 
-body.light-mode .mark-dark-default,
-body.light-mode .mark-dark-hover {
+html.light-mode .mark-dark-default,
+html.light-mode .mark-dark-hover {
   opacity: 0;
 }
 
-body.light-mode .mark-light-default {
+html.light-mode .mark-light-default {
   opacity: 1;
 }
 
-body.light-mode .logo-mark:hover .mark-light-default {
+html.light-mode .logo-mark:hover .mark-light-default {
   opacity: 0;
 }
 
-body.light-mode .logo-mark:hover .mark-light-hover {
+html.light-mode .logo-mark:hover .mark-light-hover {
   opacity: 1;
 }
 
