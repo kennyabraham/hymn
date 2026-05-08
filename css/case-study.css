@@ -195,9 +195,11 @@ html.light-mode .logo-mark:hover .mark-light-hover {
   transition: transform 600ms ease-out, opacity 600ms ease-out, border-color 600ms ease-out;
 }
 
-.mode-toggle:hover .toggle-outline {
-  transform: translateX(0px);
-  opacity: 1;
+@media (hover: hover) {
+  .mode-toggle:hover .toggle-outline {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
 
 /* ─── GLASS NAV ──────────────────────────── */
