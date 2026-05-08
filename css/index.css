@@ -510,7 +510,7 @@ footer {
 
   .grid {
     grid-template-columns: repeat(6, 1fr);
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     gap: 32px;
   }
 
