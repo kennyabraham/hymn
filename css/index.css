@@ -459,8 +459,8 @@ footer {
   }
 
     header nav {
-    left: 340px;        /* ← pushes nav left of centre */
-    right: auto;        /* ← overrides the 1280px right: 48px */
+    left: auto;        /* ← pushes nav left of centre */
+    right: 20px;        /* ← overrides the 1280px right: 48px */
     gap: 20px;
     padding: 12px 16px;
   }
