@@ -459,7 +459,7 @@ footer {
   }
 
     header nav {
-    left: 180px;        /* ← pushes nav left of centre */
+    left: 340px;        /* ← pushes nav left of centre */
     right: auto;        /* ← overrides the 1280px right: 48px */
     gap: 20px;
     padding: 12px 16px;
