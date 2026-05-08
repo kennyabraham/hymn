@@ -443,7 +443,7 @@ footer {
 
   .card {
     grid-column: span 12;
-    height: 300px;
+    height: 280px;
   }
 }
 
