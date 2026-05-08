@@ -510,8 +510,9 @@ footer {
 
   .grid {
     grid-template-columns: repeat(6, 1fr);
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     gap: 32px;
+    margin-top: 40px;
   }
 
   .card {
