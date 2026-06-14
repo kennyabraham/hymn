@@ -317,13 +317,21 @@ main {
 .card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.50);
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.5) 0%,
+    rgba(0,0,0,0) 50%
+  );
   transition: background 0.3s ease;
   z-index: 1;
 }
 
 .card:hover .card-overlay {
-  background: rgba(0,0,0,0.15);
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.3) 0%,
+    rgba(0,0,0,0) 50%
+  );
 }
 
 /* ─── CARD LABELS ────────────────────────── */
