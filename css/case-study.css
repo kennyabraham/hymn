@@ -331,7 +331,7 @@ main {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 400;
   text-transform: capitalize;
-  letter-spacing: 0.06em;
+  letter-spacing: 0;
   padding: 5px 10px;
   transition: background 600ms ease-out, color 600ms ease-out;
 }
