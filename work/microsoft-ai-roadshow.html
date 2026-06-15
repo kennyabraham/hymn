@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hymn</title>
-  
-  <!-- ─── MODE FLASH FIX ───────────────────── -->
+  <title>Hymn - Microsoft AI Training Roadshow</title>
+
   <script>
     const saved = localStorage.getItem('colorMode');
     const hour = new Date().getHours();
@@ -13,16 +12,18 @@
       document.documentElement.classList.add('light-mode');
     }
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/index.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/case-study.css">
 </head>
+
 <body>
 
   <!-- ─── HEADER ─────────────────────────────── -->
   <header>
 
     <!-- Full logo — desktop -->
-   <a href="/index.html" class="logo logo-full">
+    <a href="/index.html" class="logo logo-full">
       <svg width="81" height="29" viewBox="0 0 81 29" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g>
           <path d="M34.8125 9.52207C34.2271 8.7255 33.6429 7.92894 33.0576 7.13237C32.9177 6.94176 32.752 6.75703 32.8919 6.497C33.0259 6.24756 33.2598 6.19696 33.5172 6.19931C33.7417 6.20049 33.9662 6.19931 34.1883 6.19931C34.4022 6.42287 34.6021 6.63701 34.8077 6.84645C35.1921 7.23709 35.5071 7.23826 35.8903 6.84881C36.096 6.63937 36.2958 6.42522 36.4944 6.21814H37.3419V9.3997C37.3619 9.40912 37.3819 9.41853 37.4018 9.42794C37.4724 9.31969 37.5405 9.21027 37.6134 9.1032C38.1623 8.29839 38.7735 7.55007 39.581 6.98647C40.8117 6.12636 42.1645 5.88751 43.6056 6.26991C44.9208 6.61937 45.7671 7.51947 46.282 8.75021C46.4054 9.04672 46.4912 9.3597 46.597 9.67503C46.8614 9.30087 47.113 8.91965 47.3904 8.55725C48.1602 7.55124 49.0747 6.70643 50.3089 6.33109C51.8498 5.8628 53.3226 6.03224 54.6014 7.07942C55.3619 7.70185 55.7933 8.55254 55.959 9.51736C56.0389 9.98801 56.0753 10.4704 56.0765 10.9481C56.0871 13.612 56.0812 16.2758 56.0812 18.9397V19.3127C56.5913 20.0022 57.1097 20.7023 57.6269 21.4012C57.7256 21.5353 57.8208 21.6718 57.9242 21.8024C58.0594 21.9718 58.0994 22.1601 58.003 22.3507C57.9078 22.5389 57.728 22.6284 57.5187 22.6296C57.0098 22.6343 56.5008 22.6307 55.9637 22.6307C55.7862 22.4425 55.6028 22.2401 55.4124 22.0448C55.3243 21.9542 55.2291 21.8659 55.1245 21.7977C54.8588 21.6259 54.6155 21.673 54.3334 21.9342C54.0972 22.153 53.8597 22.373 53.5823 22.6307C53.1439 22.6307 52.635 22.6343 52.126 22.6296C51.9074 22.6272 51.724 22.5437 51.6206 22.3377C51.5207 22.1365 51.5877 21.9601 51.7123 21.7918C52.3258 20.967 52.937 20.141 53.5553 19.3056C53.5553 19.1938 53.5553 19.0762 53.5553 18.9597C53.5553 16.6877 53.5635 14.4156 53.5494 12.1436C53.5459 11.5576 53.5118 10.967 53.4225 10.3892C53.359 9.97977 53.2215 9.56914 53.0428 9.1938C52.6314 8.33369 51.8792 7.96777 50.9647 7.87717C49.66 7.74656 48.6151 8.28427 47.7347 9.17968C47.3951 9.52443 47.1306 9.94448 46.845 10.341C46.7815 10.4292 46.7462 10.5575 46.7462 10.6669C46.7415 13.5261 46.7439 16.3864 46.7451 19.2456C46.7451 19.2644 46.7498 19.2844 46.7568 19.3327C47.3116 20.0822 47.8828 20.8529 48.4529 21.6235C48.4999 21.6859 48.5481 21.7483 48.5916 21.813C48.8443 22.2013 48.6527 22.6107 48.1908 22.6272C47.6736 22.646 47.1541 22.6319 46.6804 22.6319C46.4453 22.4083 46.2361 22.2177 46.0363 22.0165C45.6202 21.5977 45.3275 21.5965 44.9138 22.0059C44.7116 22.206 44.4954 22.3907 44.2321 22.6307C43.7901 22.6307 43.2612 22.6484 42.7346 22.626C42.268 22.606 42.087 22.1718 42.3749 21.7789C42.9344 21.0117 43.5033 20.2516 44.0687 19.4892C44.1098 19.4339 44.1498 19.3786 44.2074 19.2974C44.2074 19.2244 44.2074 19.1268 44.2074 19.0303C44.2074 16.6994 44.2133 14.3685 44.2039 12.0377C44.2015 11.3235 44.1768 10.6093 43.9841 9.91153C43.7866 9.19615 43.4551 8.5796 42.7758 8.21956C42.5454 8.09719 42.2915 8.00306 42.0364 7.94894C41.1102 7.75127 40.2322 7.88187 39.4059 8.36899C38.5749 8.85846 37.9425 9.53737 37.4512 10.3563C37.3936 10.4516 37.356 10.574 37.356 10.6846C37.3513 13.5343 37.3537 16.3841 37.3537 19.2338C37.3537 19.2527 37.3584 19.2727 37.3642 19.3244C37.9296 20.0881 38.5114 20.874 39.0932 21.66C39.1344 21.7153 39.1779 21.7683 39.2143 21.8259C39.46 22.2166 39.259 22.6143 38.7923 22.6296C38.2846 22.646 37.7744 22.6331 37.2385 22.6331C37.0469 22.4319 36.8471 22.2177 36.6425 22.0083C36.237 21.5918 35.9291 21.5941 35.5212 22.013C35.3237 22.2166 35.1298 22.4236 34.9312 22.6319C34.4058 22.6319 33.8862 22.646 33.3691 22.6284C32.9024 22.6119 32.7014 22.2048 32.973 21.8259C33.4972 21.0941 34.0367 20.3728 34.5691 19.6468C34.6502 19.5362 34.7302 19.4256 34.8113 19.3139V9.52325L34.8125 9.52207Z" fill="currentColor"/>
@@ -34,42 +35,32 @@
       </svg>
     </a>
 
-<!-- Monogram — tablet/mobile -->
-<a href="/index.html" class="logo logo-mark">
+    <!-- Monogram — tablet/mobile -->
+    <a href="/index.html" class="logo logo-mark">
+      <svg class="mark-light-default" width="29" height="29" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="21" cy="21" r="21" fill="#C1C1C1"/>
+        <path d="M23.1004 28.8694C21.7055 30.0985 19.5795 30.1659 18.089 29.0546C17.9878 28.9761 17.8865 28.8919 17.7909 28.8021C15.8111 26.8883 13.9101 24.8904 12.0259 22.8812C10.7098 21.4782 10.7323 19.4914 12.0709 18.0772C13.9663 16.0736 15.8899 14.1037 17.8416 12.1619C19.3151 10.6915 21.4974 10.6802 22.9991 12.145C24.9058 14.0027 26.7843 15.894 28.6066 17.8358C30.3277 19.671 30.2265 21.5623 28.4548 23.3751C26.7562 25.1093 25.0914 26.8771 23.3816 28.6001C23.286 28.6955 23.1903 28.7853 23.0947 28.8751L23.1004 28.8694Z" fill="#999999"/>
+      </svg>
+      <svg class="mark-light-hover" width="29" height="29" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="21" cy="21" r="21" fill="#717171"/>
+        <path d="M23.1004 28.8694C21.7055 30.0985 19.5795 30.1659 18.089 29.0546C17.9878 28.9761 17.8865 28.8919 17.7909 28.8021C15.8111 26.8883 13.9101 24.8904 12.0259 22.8812C10.7098 21.4782 10.7323 19.4914 12.0709 18.0772C13.9663 16.0736 15.8899 14.1037 17.8416 12.1619C19.3151 10.6915 21.4974 10.6802 22.9991 12.145C24.9058 14.0027 26.7843 15.894 28.6066 17.8358C30.3277 19.671 30.2265 21.5623 28.4548 23.3751C26.7562 25.1093 25.0914 26.8771 23.3816 28.6001C23.286 28.6955 23.1903 28.7853 23.0947 28.8751L23.1004 28.8694Z" fill="#313131"/>
+      </svg>
+      <svg class="mark-dark-default" width="29" height="29" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="21" cy="21" r="21" fill="#484848"/>
+        <path d="M23.1004 28.8694C21.7055 30.0985 19.5795 30.1659 18.089 29.0546C17.9878 28.9761 17.8865 28.8919 17.7909 28.8021C15.8111 26.8883 13.9101 24.8904 12.0259 22.8812C10.7098 21.4782 10.7323 19.4914 12.0709 18.0772C13.9663 16.0736 15.8899 14.1037 17.8416 12.1619C19.3151 10.6915 21.4974 10.6802 22.9991 12.145C24.9058 14.0027 26.7843 15.894 28.6066 17.8358C30.3277 19.671 30.2265 21.5623 28.4548 23.3751C26.7562 25.1093 25.0914 26.8771 23.3816 28.6001C23.286 28.6955 23.1903 28.7853 23.0947 28.8751L23.1004 28.8694Z" fill="#313131"/>
+      </svg>
+      <svg class="mark-dark-hover" width="29" height="29" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="21" cy="21" r="21" fill="#717171"/>
+        <path d="M23.1004 28.8694C21.7055 30.0985 19.5795 30.1659 18.089 29.0546C17.9878 28.9761 17.8865 28.8919 17.7909 28.8021C15.8111 26.8883 13.9101 24.8904 12.0259 22.8812C10.7098 21.4782 10.7323 19.4914 12.0709 18.0772C13.9663 16.0736 15.8899 14.1037 17.8416 12.1619C19.3151 10.6915 21.4974 10.6802 22.9991 12.145C24.9058 14.0027 26.7843 15.894 28.6066 17.8358C30.3277 19.671 30.2265 21.5623 28.4548 23.3751C26.7562 25.1093 25.0914 26.8771 23.3816 28.6001C23.286 28.6955 23.1903 28.7853 23.0947 28.8751L23.1004 28.8694Z" fill="#313131"/>
+      </svg>
+    </a>
 
-  <!-- Light mode pre-hover -->
-  <svg class="mark-light-default" width="29" height="29" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="21" cy="21" r="21" fill="#C1C1C1"/>
-    <path d="M23.1004 28.8694C21.7055 30.0985 19.5795 30.1659 18.089 29.0546C17.9878 28.9761 17.8865 28.8919 17.7909 28.8021C15.8111 26.8883 13.9101 24.8904 12.0259 22.8812C10.7098 21.4782 10.7323 19.4914 12.0709 18.0772C13.9663 16.0736 15.8899 14.1037 17.8416 12.1619C19.3151 10.6915 21.4974 10.6802 22.9991 12.145C24.9058 14.0027 26.7843 15.894 28.6066 17.8358C30.3277 19.671 30.2265 21.5623 28.4548 23.3751C26.7562 25.1093 25.0914 26.8771 23.3816 28.6001C23.286 28.6955 23.1903 28.7853 23.0947 28.8751L23.1004 28.8694Z" fill="#999999"/>
-  </svg>
-
-  <!-- Light mode hover -->
-  <svg class="mark-light-hover" width="29" height="29" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="21" cy="21" r="21" fill="#717171"/>
-    <path d="M23.1004 28.8694C21.7055 30.0985 19.5795 30.1659 18.089 29.0546C17.9878 28.9761 17.8865 28.8919 17.7909 28.8021C15.8111 26.8883 13.9101 24.8904 12.0259 22.8812C10.7098 21.4782 10.7323 19.4914 12.0709 18.0772C13.9663 16.0736 15.8899 14.1037 17.8416 12.1619C19.3151 10.6915 21.4974 10.6802 22.9991 12.145C24.9058 14.0027 26.7843 15.894 28.6066 17.8358C30.3277 19.671 30.2265 21.5623 28.4548 23.3751C26.7562 25.1093 25.0914 26.8771 23.3816 28.6001C23.286 28.6955 23.1903 28.7853 23.0947 28.8751L23.1004 28.8694Z" fill="#313131"/>
-  </svg>
-
-  <!-- Dark mode pre-hover -->
-  <svg class="mark-dark-default" width="29" height="29" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="21" cy="21" r="21" fill="#484848"/>
-    <path d="M23.1004 28.8694C21.7055 30.0985 19.5795 30.1659 18.089 29.0546C17.9878 28.9761 17.8865 28.8919 17.7909 28.8021C15.8111 26.8883 13.9101 24.8904 12.0259 22.8812C10.7098 21.4782 10.7323 19.4914 12.0709 18.0772C13.9663 16.0736 15.8899 14.1037 17.8416 12.1619C19.3151 10.6915 21.4974 10.6802 22.9991 12.145C24.9058 14.0027 26.7843 15.894 28.6066 17.8358C30.3277 19.671 30.2265 21.5623 28.4548 23.3751C26.7562 25.1093 25.0914 26.8771 23.3816 28.6001C23.286 28.6955 23.1903 28.7853 23.0947 28.8751L23.1004 28.8694Z" fill="#313131"/>
-  </svg>
-
-  <!-- Dark mode hover -->
-  <svg class="mark-dark-hover" width="29" height="29" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="21" cy="21" r="21" fill="#717171"/>
-    <path d="M23.1004 28.8694C21.7055 30.0985 19.5795 30.1659 18.089 29.0546C17.9878 28.9761 17.8865 28.8919 17.7909 28.8021C15.8111 26.8883 13.9101 24.8904 12.0259 22.8812C10.7098 21.4782 10.7323 19.4914 12.0709 18.0772C13.9663 16.0736 15.8899 14.1037 17.8416 12.1619C19.3151 10.6915 21.4974 10.6802 22.9991 12.145C24.9058 14.0027 26.7843 15.894 28.6066 17.8358C30.3277 19.671 30.2265 21.5623 28.4548 23.3751C26.7562 25.1093 25.0914 26.8771 23.3816 28.6001C23.286 28.6955 23.1903 28.7853 23.0947 28.8751L23.1004 28.8694Z" fill="#313131"/>
-  </svg>
-
-</a>
-
-<nav>
-  <a href="/index.html">Work</a>
-  <a href="/about.html">About</a>
-  <a href="/jobs.html">Jobs</a>
-  <a href="/contact.html">Contact</a>
-</nav>
-
+    <nav>
+      <a href="/index.html">Work</a>
+      <a href="/about.html">About</a>
+      <a href="/jobs.html">Jobs</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
   </header>
 
   <!-- ─── MODE TOGGLE ───────────────────────── -->
@@ -78,103 +69,90 @@
     <div class="toggle-solid"></div>
   </div>
 
-  <!-- ─── MAIN GRID ─────────────────────────── -->
+  <!-- ─── MAIN ───────────────────────────────── -->
   <main>
-    <div class="grid">
 
-      <!-- Row 1 -->
-      <a href="/work/microsoft-ai-roadshow.html">
-  <div class="card">
-    <img src="/images/index/microsoft-ai-roadshow.jpg" alt="Microsoft AI Training Roadshow" />
-    <div class="card-overlay"></div>
-    <span class="card-client">Microsoft</span>
-    <span class="card-title">AI Training Roadshow</span>
-  </div>
-</a>
-
-    <div class="card">
-  <img src="/images/index/olivia-cashmore-website.jpg" alt="Olivia Cashmore Website" />
-  <div class="card-overlay"></div>
-  <span class="card-client">Olivia Cashmore</span>
-  <span class="card-title">Website Experience</span>
-</div>
-
-      <div class="card">
-        <img src="/images/index/datacom-always-solving.jpg" alt="Datacom Always Solving" />
-        <div class="card-overlay"></div>
-        <span class="card-client">Datacom</span>
-        <span class="card-title">Always Solving</span>
-      </div>
-
-<div class="card">
-  <img src="/images/index/hp-datacom-partner-video.jpg" alt="HP Datacom Partner Video" />
-  <div class="card-overlay"></div>
-  <span class="card-client">Hewlett Packard</span>
-  <span class="card-title">Partner Video</span>
-</div>
-
-      <!-- Row 2 -->
-      <div class="card">
-        <img src="/images/index/rnd-jj.jpg" alt="RND Jiu Jitsu" />
-        <div class="card-overlay"></div>
-        <span class="card-client">RND Jiu Jitsu</span>
-        <span class="card-title">Brand Identity</span>
-      </div>
-
-      <div class="card">
-        <img src="/images/index/aqt-brand-identity.jpg" alt="AQT Brand Identity" />
-        <div class="card-overlay"></div>
-        <span class="card-client">AQT</span>
-        <span class="card-title">Brand Identity</span>
-      </div>
-
-      <div class="card">
-        <img src="/images/index/Noted-Website-Design.jpg" alt="Noted Website Experience" />
-        <div class="card-overlay"></div>
-        <span class="card-client">Noted</span>
-        <span class="card-title">Website Experience</span>
-      </div>
-
-      <div class="card">
-        <img src="/images/index/olivia-cashmore-brand-identity.jpg" alt="Olivia Cashmore Brand Identity" />
-        <div class="card-overlay"></div>
-        <span class="card-client">Olivia Cashmore</span>
-        <span class="card-title">Brand Identity</span>
-      </div>
-
-      <!-- Row 3 -->
-      <div class="card">
-        <img src="/images/index/e-waste-video.jpg" alt="Datacom E Easte Video" />
-        <div class="card-overlay"></div>
-        <span class="card-client">Datacom</span>
-        <span class="card-title">E Waste for Good</span>
-      </div>
-
-      <div class="card">
-        <img src="/images/index/Lyniate-brand-identity.jpg" alt="Lyniate Brand Identity" />
-        <div class="card-overlay"></div>
-        <span class="card-client">Lyniate</span>
-        <span class="card-title">Brand Identity</span>
-      </div>
-
-      <div class="card">
-        <img src="/images/index/orion-health-blog-site.jpg" alt="Orion Health Blog Site" />
-        <div class="card-overlay"></div>
-        <span class="card-client">Orion Health</span>
-        <span class="card-title">Blog Experience</span>
-      </div>
-
-      <div class="card">
-        <img src="/images/index/future-faces-of-tech.jpg" alt="Future Faces of Tech" />
-        <div class="card-overlay"></div>
-        <span class="card-client">Future Faces of Tech</span>
-        <span class="card-title">Event Visuals</span>
-      </div>
-
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-inner"></div>
     </div>
+
+    <!-- Project Info -->
+    <div class="project-info">
+      <h1 class="project-title">Microsoft<br>AI Training Roadshow</h1>
+      <div class="project-tags">
+        <span class="tag">Campaign Ideation</span>
+        <span class="tag">Event Design</span>
+        <span class="tag">3D Modelling</span>
+        <span class="tag">Visual Effects</span>
+      </div>
+      <p class="project-subtitle">
+        Exploring the visual language for Microsoft's AI Training Roadshow, a key part of their partner enablement program designed to upskill and inspire across the region.
+      </p>
+    </div>
+
+    <!-- Half Images -->
+    <div class="half-image">
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+    </div>
+
+    <!-- Text Right -->
+    <div class="text-full align-right">
+      <div class="text-block">
+        <p>Rooted in the Microsoft visual design language, we explored a series of abstract directions aimed at capturing attention and communicating the energy of the program. The goal was to create something visually striking that could cut through while staying true to the brand.</p>
+      </div>
+    </div>
+
+    <!-- Full Image -->
+    <div class="full-image">
+      <div class="placeholder"></div>
+    </div>
+
+    <!-- Text Left -->
+    <div class="text-full">
+      <div class="text-block">
+        <p>We approached illustration through the lens of Microsoft's creative principles, defining a visual language that felt both distinctly Microsoft and campaign-ready. Tangible, physical forms and handmade textures with organic shapes formed the foundation, layered with a sense of motion and vibrant energetic tones. Dimensional layering, light and shadow play and a tactile materiality brought the work to life.</p>
+      </div>
+    </div>
+
+    <!-- Two Col Images -->
+    <div class="two-col-images">
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+    </div>
+
+    <!-- Text Right -->
+    <div class="text-full align-right">
+      <div class="text-block">
+        <p>We approached illustration through the lens of Microsoft's creative principles, defining a visual language that felt both distinctly Microsoft and campaign-ready. Tangible, physical forms and handmade textures with organic shapes formed the foundation, layered with a sense of motion and vibrant energetic tones. Dimensional layering, light and shadow play and a tactile materiality brought the work to life.</p>
+      </div>
+    </div>
+
+    <!-- Half Images -->
+    <div class="half-image">
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+    </div>
+
   </main>
 
-<!-- ─── FOOTER ────────────────────────────── -->
+  <!-- ─── NEXT UP WRAPPER ──────────────────── -->
+  <div class="next-up-wrapper">
+    <div class="next-up-label">
+      <span>Next Up</span>
+      <a href="/contact.html">Get In Touch</a>
+    </div>
+    <a href="/work/olivia-cashmore.html" class="next-up-title">
+      Olivia Cashmore — Website Experience
+    </a>
+    <a href="/work/olivia-cashmore.html" class="next-up-image">
+      <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1440&q=80" alt="Next Project" />
+      <div class="glass-overlay"></div>
+    </a>
+  </div>
+
+  <!-- ─── FOOTER ────────────────────────────── -->
   <footer>
     <span class="footer-copyright">Copyright © 2026 HYMN</span>
     <a href="https://www.instagram.com/hymncreative/" target="_blank" class="footer-instagram">Instagram</a>
@@ -185,12 +163,12 @@
   </footer>
 
   <!-- ─── BOTTOM NAV — MOBILE ONLY ────────── -->
-<nav class="bottom-nav">
-  <a href="/index.html">Work</a>
-  <a href="/about.html">About</a>
-  <a href="/jobs.html">Jobs</a>
-  <a href="/contact.html">Contact</a>
-</nav>
+  <nav class="bottom-nav">
+    <a href="/index.html">Work</a>
+    <a href="/about.html">About</a>
+    <a href="/jobs.html">Jobs</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
 
 <script src="/js/main.js"></script>
 

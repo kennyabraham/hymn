@@ -998,3 +998,19 @@ footer {
     transform: none;
   }
 }
+/* ─── TEXT RIGHT ─────────────────────────── */
+.text-full.align-right .text-block {
+  grid-column: 13 / 25;
+}
+
+@media (max-width: 1024px) {
+  .text-full.align-right .text-block {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 430px) {
+  .text-full.align-right .text-block {
+    grid-column: 1 / -1;
+  }
+}
