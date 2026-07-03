@@ -602,7 +602,9 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* ─── NEXT UP IMAGE ─────────────────────── */
 .next-up-image {
-  width: 100%;
+  width: calc(100% - 32px);
+  margin-left: 16px;
+  margin-right: 16px;
   height: 220px;
   position: relative;
   z-index: 1;
