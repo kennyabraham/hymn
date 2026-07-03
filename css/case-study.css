@@ -799,7 +799,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(24, 1fr);
   gap: 16px;
-  padding: 0 16px;
+  padding: 90px 16px;
   align-items: start;
 }
 
