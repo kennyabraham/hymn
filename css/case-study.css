@@ -466,6 +466,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .text-image-row .text-block {
   grid-column: 1 / 13;
+  align-self: start;
+  padding-top: 0;
 }
 
 .text-image-row .placeholder {
@@ -793,10 +795,13 @@ footer {
     grid-column: 2 / 3;
   }
 
-  .text-image-row {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-  }
+.text-image-row {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  gap: 16px;
+  padding: 0 16px;
+  align-items: start;
+}
 
   .text-image-row .text-block {
     grid-column: 1 / 2;
