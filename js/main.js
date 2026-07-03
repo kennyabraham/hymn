@@ -18,13 +18,14 @@ if (toggle) {
 }
 // ─── NEXT UP IMAGE ANIMATION ─────────────
 const nextUpImage = document.querySelector('.next-up-image');
+const nextUpWrapper = document.querySelector('.next-up-image-wrapper');
 
-if (nextUpImage) {
-  nextUpImage.addEventListener('mouseenter', () => {
+if (nextUpWrapper) {
+  nextUpWrapper.addEventListener('mouseenter', () => {
     nextUpImage.classList.add('is-active');
   });
 
-  nextUpImage.addEventListener('mouseleave', () => {
+  nextUpWrapper.addEventListener('mouseleave', () => {
     nextUpImage.classList.remove('is-active');
   });
 }
