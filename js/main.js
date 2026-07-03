@@ -16,3 +16,17 @@ if (toggle) {
     );
   });
 }
+// ─── NEXT UP IMAGE ANIMATION ─────────────
+const nextUpImage = document.querySelector('.next-up-image');
+
+if (nextUpImage) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        nextUpImage.classList.add('is-active');
+      }
+    });
+  }, { threshold: 0.3 });
+
+  observer.observe(nextUpImage);
+}
