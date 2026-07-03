@@ -662,7 +662,7 @@ footer {
   height: 242px;
   background: var(--footer-bg);
   position: relative;
-  z-index: 2;
+  z-index: 3;
   transition: background 600ms ease-out;
 }
 
