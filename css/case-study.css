@@ -944,6 +944,33 @@ footer {
     gap: 15px;
   }
 
+  /* ─── HALF IMAGES ────────────────────────── */
+  .half-image {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .half-image .placeholder {
+    grid-column: 1 / -1;
+    height: 456px;
+  }
+
+  /* ─── TWO COL TEXT ───────────────────────── */
+  .two-col-text {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .two-col-text .text-block:first-child {
+    grid-column: 1 / -1;
+    padding-bottom: 0;
+  }
+
+  .two-col-text .text-block:last-child {
+    grid-column: 1 / -1;
+    padding-top: 0;
+  }
+  
   /* ─── LANDSCAPE 370x209 ──────────────────── */
   .hero-inner {
     height: 209px;
