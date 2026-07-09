@@ -1075,16 +1075,5 @@ footer {
   }
 }
 
-/* ─── CONSISTENT COMPONENT SPACING ─────── */
-  .hero,
-  .full-image,
-  .full-bleed-image,
-  .half-image,
-  .two-col-images,
-  .text-full,
-  .two-col-text,
-  .text-image-row,
-  .image-text-row {
-    margin-top: 40px;
-  }
+
 
