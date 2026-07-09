@@ -446,7 +446,11 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ─── TEXT + IMAGE ROW SPACING ───────────── */
 .text-full + .image-text-row,
 .image-text-row + .text-full {
-  margin-top: 8px;
+  margin-top: 16px;
+}
+
+.text-full + .image-text-row {
+  margin-top: -60px;
 }
 
 /* ─── TEXT FULL WIDTH ────────────────────── */
