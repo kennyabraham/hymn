@@ -566,6 +566,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .text-full .text-block {
   padding-bottom: 30px;
 }
+
 /* ─── HALF RIGHT ─────────────────────────── */
 .half-image.half-right .placeholder {
   grid-column: 13 / 25;
