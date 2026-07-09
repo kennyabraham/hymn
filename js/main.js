@@ -29,3 +29,23 @@ if (nextUpWrapper) {
     nextUpImage.classList.remove('is-active');
   });
 }
+
+// ─── VIDEO MUTE TOGGLE ────────────────────
+const muteToggle = document.getElementById('muteToggle');
+const vimeoPlayer = document.getElementById('vimeo-player');
+
+if (muteToggle && vimeoPlayer) {
+  let isMuted = true;
+  const player = new Vimeo.Player(vimeoPlayer);
+
+  muteToggle.addEventListener('click', () => {
+    if (isMuted) {
+      player.setVolume(1);
+      muteToggle.classList.add('is-unmuted');
+    } else {
+      player.setVolume(0);
+      muteToggle.classList.remove('is-unmuted');
+    }
+    isMuted = !isMuted;
+  });
+}

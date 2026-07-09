@@ -13,6 +13,8 @@
     }
   </script>
 
+  <script src="https://player.vimeo.com/api/player.js"></script>
+
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/case-study.css">
 </head>
@@ -76,11 +78,16 @@
 <div class="hero">
   <div class="hero-inner hero-video">
     <iframe
-      src="https://player.vimeo.com/video/1004019963?autoplay=1&muted=1&loop=1&background=1"
+      id="vimeo-player"
+      src="https://player.vimeo.com/video/YOUR_VIDEO_ID?autoplay=1&muted=1&loop=1&background=1"
       frameborder="0"
       allow="autoplay; fullscreen"
       allowfullscreen>
     </iframe>
+    <button class="video-mute-toggle" id="muteToggle">
+      <span class="unmuted">&#128264;</span>
+      <span class="muted">&#128263;</span>
+    </button>
   </div>
 </div>
 

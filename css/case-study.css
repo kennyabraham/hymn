@@ -312,6 +312,45 @@ main {
   pointer-events: none;
 }
 
+/* ─── VIDEO MUTE TOGGLE ──────────────────── */
+.video-mute-toggle {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: background 300ms ease-out;
+}
+
+.video-mute-toggle:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.video-mute-toggle .unmuted {
+  display: none;
+}
+
+.video-mute-toggle .muted {
+  display: block;
+}
+
+.video-mute-toggle.is-unmuted .unmuted {
+  display: block;
+}
+
+.video-mute-toggle.is-unmuted .muted {
+  display: none;
+}
+
 /* ─── PROJECT INFO ───────────────────────── */
 .project-info {
   display: grid;
