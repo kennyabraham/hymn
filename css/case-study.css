@@ -1075,8 +1075,3 @@ footer {
   }
 }
 
-/* ─── IMAGE TEXT ROW ─────────────────────── */
-  .image-text-row .placeholder,
-  .image-text-row.image-left .placeholder {
-    margin-bottom: 30px;
-  }
