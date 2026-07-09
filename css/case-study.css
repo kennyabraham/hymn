@@ -1074,3 +1074,9 @@ footer {
     grid-column: 1 / -1;
   }
 }
+
+/* ─── IMAGE TEXT ROW ─────────────────────── */
+  .image-text-row .placeholder,
+  .image-text-row.image-left .placeholder {
+    margin-bottom: 30px;
+  }
