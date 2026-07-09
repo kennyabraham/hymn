@@ -944,6 +944,20 @@ footer {
     gap: 15px;
   }
 
+
+  /* ─── CONSISTENT COMPONENT SPACING ─────── */
+  .hero,
+  .full-image,
+  .full-bleed-image,
+  .half-image,
+  .two-col-images,
+  .text-full,
+  .two-col-text,
+  .text-image-row,
+  .image-text-row {
+    margin-top: 40px;
+  }
+
   /* ─── HALF IMAGES ────────────────────────── */
   .half-image {
     grid-template-columns: 1fr;
