@@ -489,11 +489,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* ─── IMAGE WITH SIDE TEXT ───────────────── */
-..image-text-row {
+.image-text-row {
   display: grid;
   grid-template-columns: repeat(24, 1fr);
   gap: 16px;
-  padding: 90px 16px;
+  padding: 0 16px;
   align-items: start;
 }
 
@@ -501,7 +501,7 @@ p, h1, h2, h3, h4, h5, h6 {
   grid-column: 13 / 25;
   height: 870px;
   align-self: start;
-  margin-top: 0;
+  margin-top: 90px;
 }
 
 .image-text-row .text-block {
@@ -512,13 +512,12 @@ p, h1, h2, h3, h4, h5, h6 {
 .image-text-row.image-left .placeholder {
   grid-column: 1 / 13;
   align-self: start;
-  margin-top: 0;
+  margin-top: 90px;
   height: 870px;
 }
 
 .image-text-row.image-left .text-block {
   grid-column: 13 / 25;
-  align-self: start;
 }
 
 /* ─── IMAGE TEXT BOTTOM ALIGNMENT ───────── */
