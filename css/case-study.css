@@ -1011,9 +1011,7 @@ footer {
   }
 
     /* ─── HERO MOBILE ────────────────────────── */
-  .hero {
-    margin-top: 120px;
-  }
+ 
 
   .project-info {
     padding: 40px 10px 40px 10px;
@@ -1180,8 +1178,5 @@ footer {
   }
 }
 
-.hero {
-  margin-top: 60px;
-}
 
 
