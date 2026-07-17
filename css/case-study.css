@@ -1195,3 +1195,11 @@ footer {
     margin-bottom: 40px !important;   /* ← this creates space before the image */
   }
 }
+
+/* ─── HALF RIGHT FULL WIDTH ON MOBILE ─────────── */
+@media (max-width: 430px) {
+  .half-image.half-right .placeholder {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+  }
+}
