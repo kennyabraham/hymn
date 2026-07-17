@@ -1199,7 +1199,7 @@ footer {
 
 /* Desktop overlap fix (if needed) */
 .image-text-row.image-left .placeholder {
-  margin-top: 40px; /* Increase if still overlapping on laptop */
+  margin-top: 80px; /* Increase if still overlapping on laptop */
 }
 
 
