@@ -1178,8 +1178,8 @@ footer {
     margin-top: 0 !important;
   }
 
-  /* Also reduce the padding on the text block that follows */
   .text-full.align-right + .image-text-row .text-block {
     padding-top: 20px !important;
+    padding-bottom: 20px !important;
   }
 }
