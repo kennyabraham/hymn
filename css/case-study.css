@@ -1010,6 +1010,15 @@ footer {
     display: flex;
   }
 
+    /* ─── HERO MOBILE ────────────────────────── */
+  .hero {
+    margin-top: 30px;
+  }
+
+  .project-info {
+    padding: 40px 10px 40px 10px;
+  }
+
   .hero,
   .full-image,
   .full-bleed-image,
