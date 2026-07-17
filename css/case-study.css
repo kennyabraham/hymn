@@ -1202,12 +1202,10 @@ footer {
   margin-top: 80px; /* Increase if still overlapping on laptop */
 }
 
-/* ─── CASE STUDY #4 MOBILE SPACING ─────────── */
+/* ─── CASE STUDY #4 MOBILE PARAGRAPH SPACING ─────────── */
 @media (max-width: 430px) {
-  /* Space between paragraphs in Text Top left + Image Right section */
-  .text-top-left-image-right .text-block p + p,
-  .text-top-left-image-right .text-block br + p {
-    margin-top: 80px !important; /* Increase this number if needed */
+  .text-top-left-image-right .text-block p + p {
+    margin-top: 60px !important;
   }
 }
 
