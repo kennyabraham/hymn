@@ -1019,6 +1019,7 @@ footer {
     padding: 40px 10px 40px 10px;
   }
 
+   .hero,
   .full-image,
   .full-bleed-image,
   .two-col-images,
@@ -1029,17 +1030,11 @@ footer {
     padding: 0 10px;
     grid-template-columns: 1fr;
     gap: 15px;
-    margin-top: 40px;
-  }
-
-  .hero {
-    margin-top: 80px;
   }
 
 
   /* ─── CONSISTENT COMPONENT SPACING ─────── */
-  .hero,
-  .full-image,
+   .full-image,
   .full-bleed-image,
   .half-image,
   .two-col-images,
@@ -1048,6 +1043,10 @@ footer {
   .text-image-row,
   .image-text-row {
     margin-top: 40px;
+  }
+
+  .hero {
+    margin-top: 80px;
   }
 
   /* ─── HALF IMAGES ────────────────────────── */
