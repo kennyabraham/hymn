@@ -1172,13 +1172,13 @@ footer {
   }
 }
 
-/* ─── HIGH SPECIFICITY MOBILE FIX (Case Study #4) ─────────── */
+/* ─── NUCLEAR MOBILE SPACING FIX ─────────── */
 @media (max-width: 430px) {
-  main .text-full + .image-text-row {
-    margin-top: 60px !important;
+  body main .text-full + .image-text-row {
+    margin-top: 80px !important;
   }
 
-  main .text-block p + p {
+  body main .text-block p + p {
     margin-top: 40px !important;
   }
 }
