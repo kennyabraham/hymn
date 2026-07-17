@@ -1211,28 +1211,3 @@ footer {
   }
 }
 
-/* ─── CONSISTENT SPACE BETWEEN TEXT & IMAGE COMPONENTS (Mobile) ─────────── */
-@media (max-width: 430px) {
-  /* Text → Image */
-  .text-full + .image-text-row,
-  .text-full + .half-image,
-  .text-full + .full-image,
-  .text-full + .two-col-images {
-    margin-top: 60px !important;
-  }
-
-  /* Image → Text */
-  .image-text-row + .text-full,
-  .half-image + .text-full,
-  .full-image + .text-full,
-  .two-col-images + .text-full {
-    margin-top: 60px !important;
-  }
-
-  /* Image → Image */
-  .image-text-row + .image-text-row,
-  .half-image + .half-image,
-  .full-image + .full-image {
-    margin-top: 40px !important;
-  }
-}
