@@ -1182,3 +1182,5 @@ footer {
     margin-top: 40px !important;
   }
 }
+
+body { background: red !important; }
