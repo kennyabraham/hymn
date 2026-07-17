@@ -1172,73 +1172,13 @@ footer {
   }
 }
 
-@media (max-width: 430px) {
-  .text-full.align-right .text-block {
-    grid-column: 1 / -1;
-  }
-}
-
-  /* ─── HALF RIGHT MOBILE ──────────────────── */
-  .half-image.half-right .placeholder {
-    grid-column: 1 / -1;
-  }
-
-  /* ─── IMAGE LEFT TEXT RIGHT MOBILE SPACING ── */
-  .image-text-row.image-left .placeholder {
-    margin-top: 20px;
-  }
-
-  /* ─── CASE STUDY #3 SPECIFIC FIX ─────────── */
-@media (max-width: 430px) {
-  /* More space above the second-to-last image on mobile */
-  .image-text-row.image-left:nth-last-child(2) .placeholder,
-  .image-text-row.image-left:nth-last-child(2) img {
-    margin-top: 60px !important;
-  }
-}
-
-/* Desktop overlap fix (if needed) */
-.image-text-row.image-left .placeholder {
-  margin-top: 80px; /* Increase if still overlapping on laptop */
-}
-
-/* ─── CASE STUDY #4 MOBILE SPACING ─────────── */
-@media (max-width: 430px) {
-  /* Paragraph spacing */
-  .text-block p + p {
-    margin-top: 40px !important;
-  }
-
-  /* Consistent section spacing */
-  .text-full + .image-text-row,
-  .image-text-row + .text-full,
-  .full-image + .image-text-row {
-    margin-top: 60px !important;
-  }
-}
-
-/* ─── BROAD MOBILE SECTION SPACING FIX ─────────── */
-@media (max-width: 430px) {
-  .text-full + * ,
-  .image-text-row + * ,
-  .full-image + * ,
-  .half-image + * ,
-  .two-col-images + * {
-    margin-top: 60px !important;
-  }
-
-  /* Paragraph spacing */
-  .text-block p + p {
-    margin-top: 40px !important;
-  }
-}
-
-/* ─── CASE STUDY #4 MOBILE SPACING ─────────── */
+/* ─── CLEAN MOBILE SPACING ─────────── */
 @media (max-width: 430px) {
   .text-full + .image-text-row {
     margin-top: 60px !important;
   }
+
+  .text-block p + p {
+    margin-top: 40px !important;
+  }
 }
-
-
-
