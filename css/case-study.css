@@ -1236,3 +1236,18 @@ footer {
     margin-top: 40px !important;
   }
 }
+
+/* ─── IMAGE LEFT + TEXT TOP RIGHT SPACING FIXES ─────────── */
+@media (max-width: 430px) {
+  /* Increase space above Image Left + Text Top Right */
+  .full-image + .image-text-row.image-left,
+  .half-image + .image-text-row.image-left,
+  .two-col-images + .image-text-row.image-left {
+    margin-top: 60px !important;
+  }
+
+  /* Reduce space below Image Left + Text Top Right (before Text Left) */
+  .image-text-row.image-left + .text-full {
+    margin-top: 30px !important;
+  }
+}
