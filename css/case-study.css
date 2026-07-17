@@ -1172,13 +1172,13 @@ footer {
   }
 }
 
-/* ─── CLEAN MOBILE SPACING (Case Study #4) ─────────── */
+/* ─── HIGH SPECIFICITY MOBILE FIX (Case Study #4) ─────────── */
 @media (max-width: 430px) {
-  .text-full + .image-text-row {
+  main .text-full + .image-text-row {
     margin-top: 60px !important;
   }
 
-  .text-block p + p {
+  main .text-block p + p {
     margin-top: 40px !important;
   }
 }
