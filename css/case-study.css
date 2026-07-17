@@ -1178,5 +1178,10 @@ footer {
   }
 }
 
+  /* ─── HALF RIGHT MOBILE ──────────────────── */
+  .half-image.half-right .placeholder {
+    grid-column: 1 / -1;
+  }
+
 
 
