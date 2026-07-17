@@ -1172,24 +1172,9 @@ footer {
   }
 }
 
-/* ─── NUCLEAR MOBILE SPACING FIX ─────────── */
+/* ─── EXACT FIX FOR YOUR SECTIONS ─────────── */
 @media (max-width: 430px) {
-  body main .text-full + .image-text-row {
+  .text-full.align-right + .image-text-row {
     margin-top: 80px !important;
-  }
-
-  body main .text-block p + p {
-    margin-top: 40px !important;
-  }
-}
-
-/* ─── FINAL MOBILE SPACING (Case Study #4) ─────────── */
-@media (max-width: 430px) {
-  body main .text-full + .image-text-row {
-    margin-top: 60px !important;
-  }
-
-  body main .text-block p + p {
-    margin-top: 40px !important;
   }
 }
