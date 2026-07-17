@@ -1183,5 +1183,10 @@ footer {
     grid-column: 1 / -1;
   }
 
+  /* ─── IMAGE LEFT TEXT RIGHT MOBILE SPACING ── */
+  .image-text-row.image-left .placeholder {
+    margin-top: 20px;
+  }
+
 
 
