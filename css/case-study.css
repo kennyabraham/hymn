@@ -1172,9 +1172,9 @@ footer {
   }
 }
 
-/* ─── EXACT FIX FOR YOUR SECTIONS ─────────── */
+/* ─── TEXT RIGHT + TEXT LEFT + HALF IMAGE RIGHT (Mobile) ─────────── */
 @media (max-width: 430px) {
   .text-full.align-right + .image-text-row {
-    margin-top: 40px !important;
+    margin-top: 20px !important;
   }
 }
