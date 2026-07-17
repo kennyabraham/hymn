@@ -1183,3 +1183,15 @@ footer {
     padding-bottom: 20px !important;
   }
 }
+/* ─── TEXT RIGHT + TEXT LEFT + HALF IMAGE RIGHT ─────────── */
+@media (max-width: 430px) {
+  .text-full.align-right + .image-text-row {
+    margin-top: 0 !important;
+  }
+
+  .text-full.align-right + .image-text-row .text-block {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 40px !important;   /* ← this creates space before the image */
+  }
+}
