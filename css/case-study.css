@@ -1199,16 +1199,11 @@ footer {
   transition: color 0.3s ease;
 }
 
-.next-up-title:hover {
-  color: var(--text-primary);
-}
-
 .next-up-image-wrapper {
   position: relative;
   width: 100%;
   height: 220px;
   overflow: hidden;
-  border-radius: 4px;
 }
 
 .next-up-image {
@@ -1233,7 +1228,8 @@ footer {
 .glass-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.06);
   pointer-events: none;
+  z-index: 2;
 }
 
