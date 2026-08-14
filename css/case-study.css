@@ -1271,9 +1271,13 @@ footer {
 }
 
 /* Next Up – hover on title also triggers image animation */
+.next-up-image-wrapper {
+  overflow: visible; /* allow the image to move up without cropping */
+}
+
 .next-up-wrapper:hover .next-up-image img,
 .next-up-wrapper:hover .next-up-image {
-  transform: translateY(-12px); /* adjust distance if needed */
+  transform: translateY(-12px);
 }
 
 .next-up-image img,
