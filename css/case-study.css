@@ -1270,19 +1270,14 @@ footer {
   display: block;
 }
 
-/* Fix Next Up image cropping on hover */
-.next-up-wrapper,
-.next-up-image-wrapper,
-.next-up-image {
-  overflow: visible !important;
-}
-
+/* Next Up – safer hover animation */
 .next-up-wrapper:hover .next-up-image img,
 .next-up-wrapper:hover .next-up-image {
-  transform: translateY(-12px);
+  transform: scale(1.03) translateY(-6px);
 }
 
 .next-up-image img,
 .next-up-image {
   transition: transform 0.9s ease;
+  transform-origin: center bottom;
 }
