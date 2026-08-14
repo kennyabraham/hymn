@@ -1270,11 +1270,12 @@ footer {
   display: block;
 }
 
-/* Reset Next Up hover animation */
-.next-up-wrapper:hover .next-up-image img,
-.next-up-wrapper:hover .next-up-image,
-.next-up-image img,
-.next-up-image {
+/* Fully reset Next Up hover styles */
+.next-up-wrapper,
+.next-up-image-wrapper,
+.next-up-image,
+.next-up-image img {
+  overflow: initial !important;
   transform: none !important;
   transition: none !important;
 }
