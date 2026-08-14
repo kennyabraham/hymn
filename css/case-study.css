@@ -1270,9 +1270,11 @@ footer {
   display: block;
 }
 
-/* Next Up – hover on title also triggers image animation */
-.next-up-image-wrapper {
-  overflow: visible; /* allow the image to move up without cropping */
+/* Fix Next Up image cropping on hover */
+.next-up-wrapper,
+.next-up-image-wrapper,
+.next-up-image {
+  overflow: visible !important;
 }
 
 .next-up-wrapper:hover .next-up-image img,
@@ -1282,5 +1284,5 @@ footer {
 
 .next-up-image img,
 .next-up-image {
-  transition: transform 0.4s ease;
+  transition: transform 0.9s ease;
 }
