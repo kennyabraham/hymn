@@ -1269,3 +1269,9 @@ footer {
   object-position: center;
   display: block;
 }
+
+/* Next Up title – keep colour consistent in light mode */
+html.light-mode .next-up-title,
+html.light-mode .next-up-title:hover {
+  color: var(--text-primary) !important;
+}
