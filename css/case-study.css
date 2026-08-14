@@ -1251,3 +1251,21 @@ footer {
     margin-top: 30px !important;
   }
 }
+/* Force all case study images to fill their containers cleanly */
+.hero-inner,
+.full-image .placeholder,
+.half-image .placeholder,
+.two-col-images .placeholder {
+  overflow: hidden;
+}
+
+.hero-inner img,
+.full-image .placeholder img,
+.half-image .placeholder img,
+.two-col-images .placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
