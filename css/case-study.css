@@ -1270,14 +1270,11 @@ footer {
   display: block;
 }
 
-/* Next Up – safer hover animation */
+/* Reset Next Up hover animation */
 .next-up-wrapper:hover .next-up-image img,
-.next-up-wrapper:hover .next-up-image {
-  transform: scale(1.03) translateY(-6px);
-}
-
+.next-up-wrapper:hover .next-up-image,
 .next-up-image img,
 .next-up-image {
-  transition: transform 0.9s ease;
-  transform-origin: center bottom;
+  transform: none !important;
+  transition: none !important;
 }
