@@ -1287,3 +1287,15 @@ html.light-mode .next-up-label a:hover,
 html.light-mode .next-up-title:hover {
   color: #717171 !important;
 }
+
+/* Next Up – dark mode colours */
+.next-up-label,
+.next-up-label a,
+.next-up-title {
+  color: #717171 !important;
+}
+
+.next-up-label a:hover,
+.next-up-title:hover {
+  color: #C1C1C1 !important;
+}
